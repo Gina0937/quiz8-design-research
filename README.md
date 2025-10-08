@@ -10,13 +10,27 @@ It helps inspiring how we can translate static grid into dynamic motion, balanci
 </p>
 
 ## Part 2: Coding Technique Exploration
-**Technique:** p5.js animated squares using transformation and timing functions.  
-This technique combines `rect()`, `translate()`, and `rotate()` with `frameCount` and `sin()` to create rhythmic motion such as scaling, rotation, or color changes of squares.  
-I find this method suitable for my project because it helps simulate the dynamic energy of the “9 Squares” animation—translating Mondrian’s geometric simplicity into playful, moving forms without strict grids.
+**Technique:** The top-left image shows Geometric Abstraction, defined by layered, rotated, and overlapping shapes with a flat color palette.  
+I think p5.js transformation functions (`rotate()`, `push()`, `pop()`) could be tried to explore this effect.  
+They might help control each shape’s angle and layering independently.  
+Combined with `fill()` and `noStroke()`, this approach could potentially recreate the clean and dynamic geometric style seen in the reference.
 
-**Screenshot / GIF (showing technique in action):**  
-![Animated squares example](https://p5js.org/assets/learn/examples/animation-easing.png)
+
+- #### 🌀 Rotate Example
+![Rotate Example](https://github.com/Gina0937/quiz8-design-research/blob/main/rotate.png)  
+*This example demonstrates how the `rotate()` function in p5.js can rotate individual shapes around a pivot point, allowing angled geometric compositions similar to the reference image.*
+
+#### 🔄 Scale Example
+![Scale Example](https://raw.githubusercontent.com/Gina0937/quiz8-design-research/refs/heads/main/scale.png)  
+*The `scale()` function enlarges or shrinks shapes proportionally, helping to explore size rhythm and variation inspired by the “9 Squares” animation.*
+
+#### ↔️ Translate Example
+![Translate Example](https://raw.githubusercontent.com/Gina0937/quiz8-design-research/refs/heads/main/translate.png)  
+*The `translate()` function shifts the origin of the coordinate system, making it possible to position and animate shapes independently while maintaining structural balance.*
+
+---
 
 **Example code links:**  
-- [p5.js — Animation Easing Example](https://p5js.org/examples/animation-easing.html)  
-- [p5.js — Rotate and Translate Example](https://p5js.org/examples/transform-rotate.html)
+- [p5.js – Rotate Example](https://p5js.org/examples/transformation-rotate/)  
+- [p5.js – Scale Example](https://p5js.org/reference/p5/scale/)  
+- [p5.js – Translate Example](https://p5js.org/examples/transformation-translate/)
