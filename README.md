@@ -10,5 +10,13 @@ It helps inspiring how we can translate static grid into dynamic motion, balanci
 </p>
 
 ## Part 2: Coding Technique Exploration
-**Technique:** p5.js tile-grid animation using nested loops, `rect()`, `translate()`, and time functions (`frameCount`, `sin()`/`noise`) with `push()/pop()` for per-tile transforms.  
-I find this technique suitable because it lets me animate square modules inside a 3×3 grid (à la “9 Squares”), creating rhythm and variation while keeping strong structure—perfect for turning Mondrian-style layouts into living motion.
+**Technique:** p5.js animated squares using transformation and timing functions.  
+This technique combines `rect()`, `translate()`, and `rotate()` with `frameCount` and `sin()` to create rhythmic motion such as scaling, rotation, or color changes of squares.  
+I find this method suitable for my project because it helps simulate the dynamic energy of the “9 Squares” animation—translating Mondrian’s geometric simplicity into playful, moving forms without strict grids.
+
+**Screenshot / GIF (showing technique in action):**  
+![Animated squares example](https://p5js.org/assets/learn/examples/animation-easing.png)
+
+**Example code links:**  
+- [p5.js — Animation Easing Example](https://p5js.org/examples/animation-easing.html)  
+- [p5.js — Rotate and Translate Example](https://p5js.org/examples/transform-rotate.html)
